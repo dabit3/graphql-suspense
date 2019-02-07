@@ -23,16 +23,11 @@ const gqlsuspense = (client, input, variables) => {
       throw fetchCache.fetch;
     }
   }
-  const operation = {
-    ...input,
-    variables: {
-      ...variables
-    }
-  }
   let fetchCache = {
     sVars,
     sInput
   }
+  // if there is no input, the client becomes the entire operation
   if (!sInput) {
     fetchCache = {
       ...fetchCache,
@@ -49,6 +44,13 @@ const gqlsuspense = (client, input, variables) => {
           })
     }
   } else {
+    // if there is some input, we create an operation
+    const operation = {
+      ...input,
+      variables: {
+        ...variables
+      }
+    }
     fetchCache = {
       ...fetchCache,
       fetch:
