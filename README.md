@@ -17,6 +17,7 @@ npm install graphql-suspense
 ## Usage (Apollo)
 
 ```js
+import React, { Component, Suspense } from 'react'
 import gqlsuspense from 'graphql-suspense'
 
 // Define Apollo client
@@ -41,6 +42,7 @@ const App = () => (
 ## Usage (AWS Amplify)
 
 ```js
+import React, { Component, Suspense } from 'react'
 import gqlsuspense from 'graphql-suspense'
 import { API, graphqlOperation } from 'aws-amplify'
 
