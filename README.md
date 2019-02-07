@@ -1,5 +1,9 @@
 # GraphQL Suspense
 
+Easily add suspense to your GraphQL app.
+
+![](header.jpg)
+
 ## Install
 
 ```sh
