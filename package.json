@@ -1,8 +1,8 @@
 {
   "name": "graphql-suspense",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "dependencies": {
     "deep-equal": "^1.0.1"
   },
