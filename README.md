@@ -35,7 +35,7 @@ class Data extends React.Component {
 }
 
 const App = () => (
-  <Suspense fallback={<div>loading single...</div>}>
+  <Suspense fallback={<div>loading...</div>}>
     <Data />
   </Suspense> 
 )
@@ -56,7 +56,7 @@ class Data extends React.Component {
 }
 
 const App = () => (
-  <Suspense fallback={<div>loading single...</div>}>
+  <Suspense fallback={<div>loading...</div>}>
     <Data />
   </Suspense> 
 )
