@@ -16,7 +16,7 @@ yarn add graphql-suspense
 npm install graphql-suspense
 ```
 
-## Usage (Apollo)
+## Usage ([Apollo](https://www.apollographql.com/docs/react/))
 
 ```js
 import React, { Component, Suspense } from 'react'
@@ -41,7 +41,7 @@ const App = () => (
 )
 ```
 
-## Usage (AWS Amplify)
+## Usage ([AWS Amplify](https://aws-amplify.github.io/))
 
 ```js
 import React, { Component, Suspense } from 'react'
