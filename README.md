@@ -2,7 +2,7 @@
 
 Easily add suspense to your GraphQL app.
 
-> Warning, the [React docs](https://reactjs.org/docs/react-api.html#reactsuspense) say that Suspense does not yet support data loading, so in the future there may be breaking changes & better options available.
+> Warning, the [React docs](https://reactjs.org/docs/react-api.html#reactsuspense) say that Suspense does not yet support data loading, so in the future there may be breaking changes & better options available. This is experimental, feel free to send prs for improvements.
 
 ![](header.jpg)
 
